@@ -1,0 +1,41 @@
+{
+  "name": "knightxbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel backend -d dist --presets es2015",
+    "watch": "babel backend -d dist --presets es2015 -w",
+    "start": "node dist/app.js",
+    "serve": "nodemon dist/app.js"
+  },
+  "engines": {
+    "node": "10.15.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "google-spreadsheet": "^2.0.7",
+    "googleapis": "^27.0.0",
+    "mongodb": "^2.2.36",
+    "mongoose": "^5.5.6",
+    "node-telegram-bot-api": "^0.30.0",
+    "nodemon": "^1.19.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZosimaQuiz/CityKingsCATS_bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZosimaQuiz/CityKingsCATS_bot/issues"
+  },
+  "homepage": "https://github.com/ZosimaQuiz/CityKingsCATS_bot#readme",
+  "description": ""
+}
